@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Understanding Content Delivery Networks</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        /* Basic styling to make the layout more readable */
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+       .container { max-width: 800px; margin: auto; }
+        header, footer { background-color: #f0f0f0; padding: 1em; text-align: center; }
+        nav ul { list-style: none; padding: 0; }
+        nav ul li { display: inline; margin-right: 20px; }
+        nav a { text-decoration: none; color: black; }
+        main { display: flex; }
+       .content { flex: 3; padding: 1em; }
+       .sidebar { flex: 1; background-color: #f0f0f0; padding: 1em; }
+        table { border-collapse: collapse; width: 100%; }
+        th, td { border: 1px solid black; padding: 8px; text-align: left; }
+        th { background-color: #f0f0f0; }
+    </style>
+</head>
+<body>
+<header>
+    <h1>Understanding Content Delivery Networks</h1>
+</header>
+<nav>
+    <ul>
+        <li><a href="#">What is a CDN?</a></li>
+        <li><a href="#">How CDNs Work</a></li>
+        <li><a href="#">Benefits of CDNs</a></li>
+    </ul>
+</nav>
+<main class="container">
+    <div class="content">
+        <section>
+            <h2>What is a CDN?</h2>
+            <p>A Content Delivery Network (CDN) is a geographically distributed group of servers which work together to provide fast delivery of Internet content.</p>
+            <img src="cdn-diagram.jpg" alt="CDN Diagram" width="300">
+        </section>
+        <section>
+            <h2>How CDNs Work</h2>
+            <p>CDNs cache content at multiple locations around the world, reducing the distance between users and website resources.</p>
+            <img src="cdn-locations.jpg" alt="CDN Locations" width="300">
+        </section>
+        <section>
+            <h2>Benefits of CDNs</h2>
+            <ul>
+                <li>Improved page load times</li>
+                <li>Reduced latency</li>
+                <li>Increased content availability</li>
+                <li>Enhanced security</li>
+            </ul>
+            <table>
+                <tr>
+                    <th>Provider</th>
+                    <th>Features</th>
+                    <th>Pricing</th>
+                </tr>
+                <tr>
+                    <td>Cloudflare</td>
+                    <td>Security, Performance, Reliability</td>
+                    <td>Free - $20/month</td>
+                </tr>
+                <tr>
+                    <td>Akamai</td>
+                    <td>Security, Media Delivery, Performance</td>
+                    <td>Custom Pricing</td>
+                </tr>
+                <tr>
+                    <td>MaxCDN</td>
+                    <td>Real-time Analytics, Custom SSL</td>
+                    <td>$9 - $299/month</td>
+                </tr>
+            </table>
+        </section>
+    </div>
+    <div class="sidebar">
+        <h3>Fun Facts About CDNs</h3>
+        <p>Did you know? CDNs serve a large portion of the Internet content today, including web objects (text, graphics and scripts), downloadable objects (media files, software, documents), applications (e-commerce, portals), live streaming media, on-demand streaming media, and social networks.</p>
+        <p>Learn more about CDNs at <a href="https://en.wikipedia.org/wiki/Content_delivery_network">Wikipedia</a>.</p>
+    </div>
+</main>
+<footer>
+    <p>&copy; 2023, [isaak garcia]</p>
+</footer>
+</body>
+</html>
